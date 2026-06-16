@@ -1,0 +1,24 @@
+# Python 虚拟环境
+venv/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit 本地配置
+.streamlit/
+
+# 本地数据文件
+transactions.csv
+budgets.csv
+
+# 日志和测试缓存
+*.log
+.pytest_cache/
+.coverage
+
+# 编辑器与系统文件
+.vscode/
+.DS_Store
+Thumbs.db
