@@ -74,7 +74,7 @@ def load_transactions():
 def save_transactions(df: pd.DataFrame):
     """保存账单数据到 CSV。"""
     df.to_csv(CSV_FILE, index=False, encoding="utf-8-sig")
-    clear_cache()
+    clear_cache() 
 
 
 @st.cache_data
